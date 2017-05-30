@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using XLua;
 
 public class PlayerMove : MonoBehaviour {
 
@@ -8,6 +9,14 @@ public class PlayerMove : MonoBehaviour {
 
     private Rigidbody rigibody;
     private Animator anim;
+
+    private static XLua.LuaEnv _luaenv = new XLua.LuaEnv();
+
+    void Awake()
+    {
+        _luaenv.DoString("CS.UnityEngine.Debug.Log('hello world')");
+        _luaenv.Dispose();
+    }
 
     // Use this for initialization
     void Start () {
