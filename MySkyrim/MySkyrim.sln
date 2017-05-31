@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySkyrim.CSharp.Plugins", "MySkyrim.CSharp.Plugins.csproj", "{A4BD59F8-3F0D-AF88-0909-78073809FFE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySkyrim.CSharp", "MySkyrim.CSharp.csproj", "{B6574C0E-AD70-66D9-0EDC-48C161EF9191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySkyrim.CSharp.Editor.Plugins", "MySkyrim.CSharp.Editor.Plugins.csproj", "{5ABCDCB7-738E-75CD-DEDC-C3289330428A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4BD59F8-3F0D-AF88-0909-78073809FFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BD59F8-3F0D-AF88-0909-78073809FFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BD59F8-3F0D-AF88-0909-78073809FFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BD59F8-3F0D-AF88-0909-78073809FFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6574C0E-AD70-66D9-0EDC-48C161EF9191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6574C0E-AD70-66D9-0EDC-48C161EF9191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6574C0E-AD70-66D9-0EDC-48C161EF9191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6574C0E-AD70-66D9-0EDC-48C161EF9191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABCDCB7-738E-75CD-DEDC-C3289330428A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABCDCB7-738E-75CD-DEDC-C3289330428A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABCDCB7-738E-75CD-DEDC-C3289330428A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABCDCB7-738E-75CD-DEDC-C3289330428A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
