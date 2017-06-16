@@ -14,8 +14,6 @@ public class GameMain : MonoBehaviour {
         int i = _luaEnv.Global.Get<int>("index");
         string x = _luaEnv.Global.Get<string>("string");
         float y = _luaEnv.Global.Get<float>("float");
-
-        float y = _luaEnv.Global.Get<float>("float");
     }
 
 void Destory () {
